@@ -160,6 +160,12 @@ ul li{
 .edito-1{
   background-color: red;
   height: 60px;
+  position: relative;
+}
+.edito-1 img{
+  float: right;
+  top: 0;
+   
 }
 .edito-1 h3{
   padding: 5%;
