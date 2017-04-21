@@ -72,6 +72,7 @@ ul li{
   margin: 2% 11% 0 10%;
 }
 .section-left{
+  display: inline-block;
   position: relative;
   width: 60%;
   margin: 0 2%;
@@ -80,7 +81,7 @@ ul li{
   position: relative;
   padding: 0 0 0 2%;
   background-color: #333340;
-  margin: 2% 1%;
+  margin: .5% 0.5%;
 }
 
 .titular{
@@ -121,14 +122,45 @@ ul li{
   display: inline-block;
   float: right;
 }
-#news2{
-  width: 54.5%;
-  padding: 0;
+.abajo{
+  width: 100%;
 }
-#news2 .titular{
+#news2{
+  width: 48.5%;
+  padding: 0;
+  display: inline-block;
+}
+#news2 .titular, #news3 .titular{
   width: 100%;
   padding: 1% 2%;
 }
-.news2-img img{
-  background-size: 350%;
+
+#news2 .enlaces , #news3 .enlaces{
+  float: right;
+  width: 25%;
+}
+#news3{
+  display: inline-block;
+  width: 48.5%;
+  padding: 0;
+}
+.section-right{
+  display: inline-block;
+  width: 30%;
+}
+.section-right h3{
+  color: white;
+}
+.titulo{
+  color: red;
+}
+.edito-2, .edito-3{
+  background-color: #1363a9;
+}
+.edito-1{
+  background-color: red;
+  height: 60px;
+}
+.edito-1 h3{
+  padding: 5%;
 }
