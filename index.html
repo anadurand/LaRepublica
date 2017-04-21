@@ -4,67 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title>La Republica</title>
   </head>
   <body>
     <header>
-      <img alt="logo" class="logo">
+      <i class="logo sprite sprite-logo"></i>
       <div class="header-center">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+        <span class="icon-twitter-with-circle icono-enlace"></span>
+        <span class="icon-facebook-with-circle icono-enlace"></span>
+        <span class="icon-youtube-with-circle icono-enlace"></span>
+        <span class="icon-instagram-with-circle icono-enlace"></span>
       </div>
       <div class="header-right">
-        Buscar <span></span>
+        Buscar <span class="icon-search2 search"></span>
       </div>
     </header>
+
     <nav>
-      <ul>
-        <li>POLÍTICA</li>
-        <li>ECONOMÍA</li>
-        <li>SOCIEDAD</li>
-        <li>MUNDO</li>
-        <li>DEPORTES</li>
-        <li>ESPECTÁCULOS</li>
-        <li>ED. IMPRESA</li>
-        <li>INVESTIGACIÓN</li>
-        <li>MÁS <span></span></li>
+      <ul class = "menu">
+        <li><a href="#">POLÍTICA</a></li>
+        <li><a href="#">ECONOMÍA</a></li>
+        <li><a href="#">SOCIEDAD</a></li>
+        <li><a href="#">MUNDO</a></li>
+        <li><a href="#">DEPORTES</a></li>
+        <li><a href="#">ESPECTÁCULOS</a></li>
+        <li><a href="#">ED. IMPRESA</a></li>
+        <li><a href="#">INVESTIGACIÓN</a></li>
+        <li><a href="#">MÁS <span class="icon-chevron-down see-more"></span></a></li>
       </ul>
     </nav>
     <section class="noticias">
-      <section class="section-izq">
-        <div class="new-1">
+      <section class="section-left">
+        <div  id = "news1" class="news-1">
           <div class="titular">
-            <p>Los colaboradores eficaces han documentado su relato en caso Lava Jato</p>
+            <h2>Los colaboradores eficaces han documentado su relato en caso Lava Jato</h2>
             <div class="enlaces">
-              <span></span>
-              <span></span>
-              <span></span>
+              <span class="icon-facebook-with-circle  icon-style"></span>
+              <span class="icon-twitter-with-circle icon-style"></span>
+              <div class="share1"><span class="icon-share2 icon-style share"></span></div>
             </div>
           </div>
-          <div class="new1-img"><img src="" alt="img-new1"></div>
+          <div class="news1-img"><img alt="" class="sprite sprite-odebrecht"></div>
         </div>
-        <div class="new-2">
+        <div id = "news2" class="news-2">
+          <div class="news2-img"><img class="sprite sprite-alejandra-aramayo"></div>
           <div class="titular">
-            <p>Salen más casos de extorsión contra congresista fujimorista Aramayo</p>
+            <h2>Salen más casos de extorsión contra congresista fujimorista Aramayo</h2>
             <div class="enlaces">
-              <span></span>
-              <span></span>
-              <span></span>
+              <span class="icon-facebook-with-circle  icon-style"></span>
+              <span class="icon-twitter-with-circle icon-style"></span>
+              <div class="share1"><span class="icon-share2 icon-style share"></span></div>
             </div>
-            <div class="new2-img"><img src="" alt="img-new2"></div>
           </div>
         </div>
-        <div class="new-3">
+        <div id = "news3" class="news-3">
           <div class="titular">
-            <p>Corea del Norte: "La guerra termonuclear puede estallar en cualquier momento"</p>
+            <h2>Corea del Norte: "La guerra termonuclear puede estallar en cualquier momento"</h2>
             <div class="enlaces">
-              <span></span>
-              <span></span>
-              <span></span>
+              <span class="icon-facebook-with-circle  icon-style"></span>
+              <span class="icon-twitter-with-circle icon-style"></span>
+              <div class="share1"><span class="icon-share2 icon-style share"></span></div>
             </div>
-            <div class="new3-img"><img src="" alt="img-new3"></div>
+            <div class="new3-img"><img></div>
           </div>
         </div>
       </section>
